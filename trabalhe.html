@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Contato</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="w3-bar">
+        <div class="w3-row w3-padding w3-black">
+            <div class="w3-col s2">
+                <a href="index.html" class="w3-button w3-block w3-black">Página Inicial</a>
+            </div>
+            <div class="w3-col s2">
+                <a href="convenios.html" class="w3-button w3-block w3-black">Convênios</a>
+            </div>
+            <div class="w3-col s2">
+                <a href="especialidades.html" class="w3-button w3-block w3-black">Especialidades Médicas</a>
+            </div>
+            <div class="w3-col s2">
+                <a href="missao.html" class="w3-button w3-block w3-black">Missão Visão e Valores</a>
+            </div>
+            <div class="w3-col s2">
+                <a href="trabalhe.html" class="w3-button w3-block w3-black">Trabalhe Conosco</a>
+            </div>
+            <div class="w3-col s2">
+                <a href="contato.html" class="w3-button w3-block w3-black">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <form class="w3-container w3-card-4 w3-light-grey w3-text-black " style="width:50%; margin: auto; margin-top: 2%;">
+        <h2 class="w3-center">Trabalhe Conosco</h2>
+
+        <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" name="first" type="text" placeholder="Nome">
+            </div>
+        </div>
+
+
+
+        <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" name="phone" type="text" placeholder="Telefone">
+            </div>
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-map-marker-alt"></i></div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border" name="endereco" type="text"
+                        placeholder="Endereço(Exemplo: Rua Solitude, 25  Cep 04430-030)">
+                </div>
+            </div>
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:50px"><i class="w3-xxlarge 	fas fa-globe-americas"></i></div>
+                <div class="w3-rest">
+                    <select id="Estado" name="Estado">
+                        <option value="" disabled selected>Estado</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapá">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Distrito Federal">Distrito Federal</option>
+                        <option value="Espírito Santo">Espírito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Paraíba">Paraíba</option>
+                        <option value="Paraná">Paraná</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piauí">Piauí</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        <option value="Rondônia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantins">Tocantins</option>
+                    </select>
+                </div>
+            </div>
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-graduation-cap"></i></div>
+                <div class="w3-rest">
+                    <select id="Formacao" name="Formacao">
+                        <option value="" disabled selected>Formação</option>
+                        <option value="EF">Ensino Fundamental</option>
+                        <option value="EM">Ensino Médio</option>
+                        <option value="MT">Médio Técnico</option>
+                        <option value="ES">Ensino Superior</option>
+                        <input type="checkbox" name="vehicle" value="Bike"> Cursando
+
+
+
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+            <div class="w3-rest">
+                <input class="w3-input w3-border" style="height:200px;" name="message" type="text"
+                    placeholder="Mensagem">
+            </div>
+        </div>
+
+        <button class="w3-button w3-block w3-section w3-black w3-ripple w3-padding">Enviar</button>
+
+    </form>
+
+    <div class="footer">COPYRIGHT © 2019 TODOS OS DIREITOS RESERVADOS</div>
+</body>
+
+</html>
